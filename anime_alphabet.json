@@ -1,0 +1,103 @@
+{
+    "A": {
+        "A": "Akamaru",
+        "I": "Itachi",
+        "E": "Ebisu",
+        "O": "Obito",
+        "U": "Udon"
+    },
+    "KA": {
+        "KA": "KAkashi",
+        "KI": "KIsame",
+        "KE": "sasuKE",
+        "KO": "KOnohamaru",
+        "KU": "KUrama"
+    },
+    "SA": {
+        "SA": "SAsori",
+        "SHI": "SHisui",
+        "SU": "SUsano",
+        "SE": "SEnju",
+        "SO": "SOra"
+    },
+    "TA": {
+        "TA": "TAyuya",
+        "CHI": "CHIzo",
+        "TSU": "TSUnade",
+        "TE": "TEmari",
+        "TO": "TObirama"
+    },
+    "NA": {
+        "NA": "NAruto",
+        "NI": "Yugito NIi",
+        "NU": "NUno Hyuga",
+        "NE": "NEji",
+        "NO": "NOhara Rin"
+    },
+    "HA": {
+        "HA": "HAku",
+        "HI": "HInata",
+        "FU": "FUgaku Uchiha",
+        "HE": "HEnge-no-Jutsu",
+        "HO": "HOkage"
+    },
+    "MA": {
+       "MA": "MAngekyou",
+       "MI": "MInato",
+       "MU": "MUu tsuchikage",
+       "ME": "MEi Terumi",
+       "MO": "MOkuton-no-jutsu" 
+    },
+    "YA": {
+       "YA": "YAhiko",
+       "YU": "YUkimaru",
+       "YO": "Yoshino Nara"
+    },
+    "RA": {
+        "RA": "RAikage",
+        "RI": "RInegan",
+        "RU": "RUka",
+        "RE": "KuREnai",
+        "RO": "ROck lee"
+    },
+    "WA": {
+      "WA": "HImaWAri",
+      "N": "N",
+      "WO": "WOrld"
+    },
+    "GA": {
+       "GA": "GArra",
+       "GI": "IzanaGI",
+       "GU": "Might GUy",
+       "GE": "GEnjutsu",
+       "GO": "JuGO"
+    },
+    "ZA": {
+        "ZA": "ZAbuza",
+        "JI": "JIraiya",
+        "ZU": "InuZUka",
+        "ZE": "ZEtsu",
+        "ZO": "TenZO"
+    },
+    "DA": {
+       "DA": "HiDAn",
+       "DJI": "DJI",
+       "DZU": "DZU",
+       "DE": "DEidara",
+       "DO": "DO"
+    },
+    "BA": {
+       "BA": "BAki",
+       "BI": "ToBI",
+       "BU": "AnBU",
+       "BE": "Killer BEe",
+       "BO": "BOruto"
+    },
+    "PA": {
+       "PA": "PAin",
+       "PI": "PI",
+       "PU": "PU",
+       "PE": "PE",
+       "PO": "PO"
+    }
+}
