@@ -1,103 +1,103 @@
 {
     "A": {
-        "A": "Akamaru",
-        "I": "Itachi",
-        "E": "Ebisu",
-        "O": "Obito",
-        "U": "Udon"
+        "A": ["Akamaru", "あ", "ア"],
+        "I": ["Itachi", "い", "イ"],
+        "E": ["Ebisu", "え", "エ"],
+        "O": ["Obito", "お", "オ"],
+        "U": ["Udon", "う", "ウ"]
     },
     "KA": {
-        "KA": "KAkashi",
-        "KI": "KIsame",
-        "KE": "sasuKE",
-        "KO": "KOnohamaru",
-        "KU": "KUrama"
+        "KA": ["KAkashi", "か", "カ"],
+        "KI": ["KIsame", "き", "キ"],
+        "KE": ["sasuKE", "け", "ケ"],
+        "KO": ["KOnohamaru", "こ", "コ"],
+        "KU": ["KUrama", "く", "ク"]
     },
     "SA": {
-        "SA": "SAsori",
-        "SHI": "SHisui",
-        "SU": "SUsano",
-        "SE": "SEnju",
-        "SO": "SOra"
+        "SA": ["SAsori", "さ", "サ"],
+        "SHI": ["SHisui", "し", "シ"],
+        "SU": ["SUsano", "す", "ス"],
+        "SE": ["SEnju", "せ", "セ"],
+        "SO": ["SOra", "そ", "ソ"]
     },
     "TA": {
-        "TA": "TAyuya",
-        "CHI": "CHIzo",
-        "TSU": "TSUnade",
-        "TE": "TEmari",
-        "TO": "TObirama"
+        "TA": ["TAyuya", "た", "タ"],
+        "CHI": ["CHIzo", "ち", "チ"],
+        "TSU": ["TSUnade", "つ", "ツ"],
+        "TE": ["TEmari", "て", "テ"],
+        "TO": ["TObirama", "と", "ト"]
     },
     "NA": {
-        "NA": "NAruto",
-        "NI": "Yugito NIi",
-        "NU": "NUno Hyuga",
-        "NE": "NEji",
-        "NO": "NOhara Rin"
+        "NA": ["NAruto", "な", "ナ"],
+        "NI": ["Yugito NIi", "に", "ニ"],
+        "NU": ["NUno Hyuga", "ぬ", "ヌ"],
+        "NE": ["NEji", "ね", "ネ"],
+        "NO": ["NOhara Rin", "の", "ノ"]
     },
     "HA": {
-        "HA": "HAku",
-        "HI": "HInata",
-        "FU": "FUgaku Uchiha",
-        "HE": "HEnge-no-Jutsu",
-        "HO": "HOkage"
+        "HA": ["HAku", "は", "ハ"],
+        "HI": ["HInata", "ひ", "ヒ"],
+        "FU": ["FUgaku Uchiha", "ふ", "フ"],
+        "HE": ["HEnge-no-Jutsu", "へ", "ヘ"],
+        "HO": ["HOkage", "ほ", "ホ"]
     },
     "MA": {
-       "MA": "MAngekyou",
-       "MI": "MInato",
-       "MU": "MUu tsuchikage",
-       "ME": "MEi Terumi",
-       "MO": "MOkuton-no-jutsu" 
+        "MA": ["MAngekyou", "ま", "マ"],
+        "MI": ["MInato", "み", "ミ"],
+        "MU": ["MUu tsuchikage", "む", "ム"],
+        "ME": ["MEi Terumi", "め", "メ"],
+        "MO": ["MOkuton-no-jutsu", "も", "モ"]
     },
     "YA": {
-       "YA": "YAhiko",
-       "YU": "YUkimaru",
-       "YO": "Yoshino Nara"
+        "YA": ["YAhiko", "や", "ヤ"],
+        "YU": ["YUkimaru", "ゆ", "ユ"],
+        "YO": ["Yoshino Nara", "よ", "ヨ"]
     },
     "RA": {
-        "RA": "RAikage",
-        "RI": "RInegan",
-        "RU": "RUka",
-        "RE": "KuREnai",
-        "RO": "ROck lee"
+        "RA": ["RAikage", "ら", "ラ"],
+        "RI": ["RInegan", "り", "リ"],
+        "RU": ["RUka", "る", "ル"],
+        "RE": ["KuREnai", "れ", "レ"],
+        "RO": ["ROck lee", "ろ", "ロ"]
     },
     "WA": {
-      "WA": "HImaWAri",
-      "N": "N",
-      "WO": "WOrld"
+        "WA": ["HImaWAri", "わ", "ワ"],
+        "N": ["N", "ん", "ン"],
+        "WO": ["WOrld", "を", "ヲ"]
     },
     "GA": {
-       "GA": "GArra",
-       "GI": "IzanaGI",
-       "GU": "Might GUy",
-       "GE": "GEnjutsu",
-       "GO": "JuGO"
+        "GA": ["GArra", "が", "ガ"],
+        "GI": ["IzanaGI", "ぎ", "ギ"],
+        "GU": ["Might GUy", "ぐ", "グ"],
+        "GE": ["GEnjutsu", "げ", "ゲ"],
+        "GO": ["JuGO", "ご", "ゴ"]
     },
     "ZA": {
-        "ZA": "ZAbuza",
-        "JI": "JIraiya",
-        "ZU": "InuZUka",
-        "ZE": "ZEtsu",
-        "ZO": "TenZO"
+        "ZA": ["ZAbuza", "ざ", "ザ"],
+        "JI": ["JIraiya", "じ", "ジ"],
+        "ZU": ["InuZUka", "ず", "ズ"],
+        "ZE": ["ZEtsu", "ぜ", "ゼ"],
+        "ZO": ["TenZO", "ぞ", "ゾ"]
     },
     "DA": {
-       "DA": "HiDAn",
-       "DJI": "DJI",
-       "DZU": "DZU",
-       "DE": "DEidara",
-       "DO": "DO"
+        "DA": ["HiDAn", "だ", "ダ"],
+        "DJI": ["DJI", "ぢ", "ヂ"],
+        "DZU": ["DZU", "づ", "ヅ"],
+        "DE": ["DEidara", "で", "デ"],
+        "DO": ["DO", "ど", "ド"]
     },
     "BA": {
-       "BA": "BAki",
-       "BI": "ToBI",
-       "BU": "AnBU",
-       "BE": "Killer BEe",
-       "BO": "BOruto"
+        "BA": ["BAki", "ば", "バ"],
+        "BI": ["ToBI", "び", "ビ"],
+        "BU": ["AnBU", "ぶ", "ブ"],
+        "BE": ["Killer BEe", "べ", "ベ"],
+        "BO": ["BOruto", "ぼ", "ボ"]
     },
     "PA": {
-       "PA": "PAin",
-       "PI": "PI",
-       "PU": "PU",
-       "PE": "PE",
-       "PO": "PO"
+        "PA": ["PAin", "ぱ", "パ"],
+        "PI": ["PI", "ぴ", "ピ"],
+        "PU": ["PU", "ぷ", "プ"],
+        "PE": ["PE", "ぺ", "ペ"],
+        "PO": ["PO", "ぽ", "ポ"]
     }
 }
