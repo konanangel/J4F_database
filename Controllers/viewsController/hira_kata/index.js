@@ -26,7 +26,7 @@ const hiraganaRomanjiArray = [
 const preloadImage = (char) => {
     return new Promise((resolve, reject) => {
         const img = new Image();
-        img.src = `https://raw.githubusercontent.com/konanangel/J4F_database/main/anime_alphabet/${char.toUpperCase()}.jpg`;
+        img.src = `/anime_alphabet/${char.toUpperCase()}.jpg`;
         img.onload = () => resolve(img);
         img.onerror = reject;
     });
@@ -35,7 +35,7 @@ const preloadImage = (char) => {
 const preLoadHiraTutorial = (char) => {
     return new Promise((resolve, reject) => {
         const img = new Image();
-        img.src = `https://raw.githubusercontent.com/konanangel/J4F_database/main/hira_writing_tutorial/${char}.gif`;
+        img.src = `/hira_writing_tutorial/${char}.gif`;
         img.onload = () => resolve(img);
         img.onerror = reject;
     });
@@ -47,7 +47,7 @@ const preLoadHiraTutorial = (char) => {
 const preLoadKataTutorial = (char) => {
     return new Promise((resolve, reject) => {
         const img = new Image();
-        img.src = `https://raw.githubusercontent.com/konanangel/J4F_database/main/kata_writing_tutorial/${char}.gif`;
+        img.src = `/kata_writing_tutorial/${char}.gif`;
         img.onload = () => resolve(img);
         img.onerror = reject;
     });
@@ -71,7 +71,7 @@ Promise.all([promise1, promise2, promise3])
         fetchHiraAlphabet();
     })
     .catch(error => {
-        alert("Error!")
+        alert("Error when prefetching!")
     });
 
 
