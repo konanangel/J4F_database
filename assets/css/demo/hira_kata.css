@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+#hira-kata-page{
+    min-height: 80vh;
+}
+
+
+#hira-kata-page .title{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+@media only screen and (max-width: 767px) {
+    #hira-kata-page .title{
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+}
+
+#hira-kata-page .introduction{
+    position: relative;
+    left: 20vw;
+    width: 40vw;
+    top: 10rem;
+    transform: translateY();
+}
+
+#hira-kata-page .get-started{
+    color:white;
+    background-color: black;
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 1rem;
+}
+

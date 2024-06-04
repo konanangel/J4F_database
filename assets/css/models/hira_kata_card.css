@@ -1,0 +1,116 @@
+.hira-kata-card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 1.8rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.hira-kata-card .content .col {
+    position: relative;
+    display: inline-block;
+    width: 30vw;
+    vertical-align: top;
+}
+
+.hira-kata-card .content .col>* {
+    font-size: 5rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.hira-kata-card .content .left-col .anime {
+    position: relative;
+    overflow: hidden;
+    height: 2em;
+    margin: 1rem;
+}
+
+.hira-kata-card .content .left-col .anime-description {
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.hira-kata-card .content .right-col {
+    text-align: center;
+}
+
+.hira-kata-card .content .right-col .tutorial {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    height: 2em;
+    margin: 1rem;
+}
+
+.hira-kata-card .content .right-col img {
+    border-radius: 1.5rem;
+    border: 0.25rem solid rgb(0, 0, 241);
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.hira-kata-card .content .left-col img {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.hira-kata-card .content .right-col .pronoun {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.hira-kata-card .content .right-col button {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 690px) {
+    .hira-kata-card {
+        overflow: auto;
+    }   
+  
+    .hira-kata-card .content .col {
+        position: relative;
+        display: block;
+        width: 50vw;
+    }
+
+    .hira-kata-card .content .right-col img {
+        border-radius: 1.5rem;
+        border: 0.25rem solid rgb(0, 0, 241);
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .hira-kata-card .content .right-col{
+        padding-bottom: 3rem;
+    }
+
+    .hira-kata-card .content .left-col img {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .hira-kata-card .content .right-col .tutorial {
+        position: relative;
+        border-radius: 1rem;
+        overflow: hidden;
+        height: auto;
+        margin: 1rem;
+    }
+
+    .hira-kata-card .content .left-col .anime {
+        position: relative;
+        border-radius: 1rem;
+        overflow: hidden;
+        height: auto;
+        margin: 1rem;
+    }
+}
+

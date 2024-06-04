@@ -1,0 +1,36 @@
+
+.hira-kata-model{
+    width: 70vw;
+    height: 70vh;
+    border-color: black;
+    border-radius: 2rem;
+    border-style: solid;
+    overflow: hidden;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50vw;
+    top: 50vh;
+    background-color: beige;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+#carouselExample, #carouselExample .carousel-inner, #carouselExample .carousel-inner .carousel-item, 
+#carouselExample .carousel-inner .carousel-item embed{
+    width: 100%;
+    height: 100%;
+}
+
+
+.wrapper #carouselExample .carousel-inner .carousel-item embed{
+    border-style: 2rem;    
+}
+
+.hira-kata-model .wrapper button.btn-card{
+    background-color: red;
+    width: 5vw;
+    z-index: 1;
+}

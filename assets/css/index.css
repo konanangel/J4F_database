@@ -1,0 +1,119 @@
+html {
+    font-size: 16px;
+    --footer-height: 10rem;
+}
+
+/*header*/
+header .icon-app {
+    width: 2rem;
+}
+
+header {
+    background-color: rgba(247, 224, 244, 0.9);
+    z-index: 1000;
+    box-shadow: 0 5px 20px rgb(125, 124, 124);
+    position: sticky;
+    top: 0;
+    transition: transform 0.5s ease;
+    /* Thêm hiệu ứng chuyển động */
+}
+
+/*When a a tag active*/
+.header-a-active {
+    transition: background-color 1s ease 0s;
+    background-color: rgb(229, 109, 215);
+    border-radius: 0.5rem;
+    color: aliceblue !important;
+}
+
+
+header .study-menu li {
+    margin: 0 2rem;
+    font-weight: 500;
+    color: rgb(0, 65, 121) !important;
+}
+
+header ul li.menu-selection{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+/*footer*/
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: rgb(203, 170, 235);
+    height: var(--footer-height);
+    z-index: 1000;
+    
+}
+
+footer .logo-and-contact {
+    position: relative;
+    top: 2rem;
+}
+
+footer .contact .icon-app {
+    width: 3rem;
+}
+
+footer .logo-and-contact .row .col a {
+    text-decoration: none;
+}
+
+.fa {
+    line-height: 2rem;
+    text-align: center;
+    text-decoration: none;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    padding: 0;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+footer .social-contact{
+    position: relative;
+    width: 12rem;
+    bottom: -3rem;
+}
+footer .social-contact .row .col{
+    padding: 0;
+    width: auto;
+}
+
+
+
+/*main frame*/
+#home {
+    padding-bottom: 15rem;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-image: url("../img/bg-home.gif");
+}
+
+#hira-kata {
+    padding-bottom: 15rem;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-image: url("../img/bg-hira-kata.gif");
+} 
+
+
+
+

@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#alphabet-page {
+    background-color: #f8efca;
+    min-height: auto;
+    padding-bottom: 10rem;
+}
+
+#alphabet-banner {
+    background-image: url("/assets/img/alphabet-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 15rem;
+    margin-bottom: 5rem;
+}
+
+#wrapper {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#wrapper .table-of-characters {
+    display: inline-block;
+}
+
+#wrapper .table-of-characters .line-of-characters{
+    min-height: 5rem;
+}
+
+#wrapper .table-of-characters .line-of-characters .character {
+    display: inline-block;
+    background-color: #ffd8ae;
+    text-align: center;
+    min-width: 5rem;
+    max-width: 15vw;
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border: 1px solid black;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+#wrapper .table-of-characters .line-of-characters .character:hover{
+    background-color: #f9c388;
+    cursor: pointer;
+}
+
+/*responsive*/
+
+@media only screen and (max-width: 991px){
+    #wrapper {
+        display: block;
+        position: relative;
+        left: 7vw;
+    }
+    #wrapper .table-of-characters {
+        display: block;
+    }
+    #wrapper .table-of-characters .line-of-characters .character {
+        display: inline-block;
+        background-color: beige;
+        text-align: center;
+        min-width: 15vw;
+        
+        
+    }
+}
+
+
